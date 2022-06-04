@@ -21,7 +21,8 @@ module.exports = {
       dropShadow: {
         'btn': '0px 4px 8px rgba(55, 125, 255, 0.5)',
         'top-left': '0px 8px 24px rgba(0, 0, 0, 0.15)',
-        'bottom-right': '0px 3.85542px 11.5663px rgba(0, 0, 0, 0.15)'
+        'bottom-right': '0px 3.85542px 11.5663px rgba(0, 0, 0, 0.15)',
+        'spread': '4px 4px 30px rgba(0, 0, 0, 0.1)'
       }
     }
   },
