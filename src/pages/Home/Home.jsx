@@ -3,6 +3,7 @@ import MainImage from "@/pages/Home/components/MainImage"
 import AboutUs from "@/pages/Home/components/AboutUs"
 import OurServices from "@/pages/Home/components/OurServices"
 import OurPortofolio from "./components/OurPortofolio"
+import Testimonial from "@/pages/Home/components/Testimonial"
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutUs/>
         <OurServices/>
         <OurPortofolio/>
+        <Testimonial/>
       </main>
   )
 }

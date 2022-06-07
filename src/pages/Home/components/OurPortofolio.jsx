@@ -22,7 +22,7 @@ export default function OurPortofolio() {
                 <PortofolioItem img={portoOne} text="Design Furniture App"/>
                 <PortofolioItem img={portoTwo} text="Cloud App"/>
                 <PortofolioItem img={portoThree} text="Design Byte App"/>
-                <div className="flex items-center">
+                <div className="flex items-center mt-3">
                     <SecondaryBtn href="" text="See All Portofolio" css="mx-auto"/>
                 </div>
             </div>
