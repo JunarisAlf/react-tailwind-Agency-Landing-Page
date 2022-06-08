@@ -1,6 +1,6 @@
 import image from '@/assets/images/main-image.png'
 import starIcon from '@/assets/icons/star.svg'
-import profileImg from '@/assets/images/pict-profile.jpeg'
+import profileImg from '@/assets/images/pict-profile-1.jpeg'
 import imgDecorationOrg from '@/assets/images/img-decoration-org.svg'
 import imgDecorationBlue from '@/assets/images/img-decoration-blue.svg'
 

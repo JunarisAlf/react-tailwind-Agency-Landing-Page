@@ -1,6 +1,6 @@
 export default ({children}) => {
     return (
-        <div className="w-full px-5 font-nunito">
+        <div className="w-full font-nunito px-5">
             {children}
         </div>
     )
