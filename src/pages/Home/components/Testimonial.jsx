@@ -4,7 +4,7 @@ import profileImgTwo from '@/assets/images/pict-profile-2.jpg'
 import TestimonialItem from '@/pages/Home/components/TestimonialItem'
 export default function Testimonial() {
     return (
-        <section>
+        <section id="testimonial">
             <h2 className="mt-24 font-quicksand text-[0.85rem] text-blue text-center font-semibold">
                 Testimonial
             </h2>

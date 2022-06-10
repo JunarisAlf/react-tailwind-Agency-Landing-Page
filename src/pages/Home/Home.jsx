@@ -10,7 +10,7 @@ import ClickToAction from '@/pages/Home/components/ClickToAction';
 export default function Home() {
     return (
         <>
-            <main className="px-5">
+            <main className="pt-16  ">
                 <Headline />
                 <MainImage />
                 <AboutUs />

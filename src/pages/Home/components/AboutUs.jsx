@@ -6,7 +6,7 @@ import ImgDecoration from "@/assets/images/img-decoration-purple.svg"
 
 export default function AboutUs() {
     return (
-        <section>
+        <section id="about">
             <h2 className="mt-24 font-quicksand text-[0.85rem] text-blue text-center font-semibold">
                 About Us
             </h2>

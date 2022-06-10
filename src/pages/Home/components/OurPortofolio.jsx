@@ -6,9 +6,9 @@ import SecondaryBtn from '@/components/SecondaryBtn'
 
 export default function OurPortofolio() {
     return (
-        <section>
+        <section id="projects">
             <h2 className="mt-24 font-quicksand text-[0.85rem] text-blue text-center font-semibold">
-                Our Services
+                Our Projects
             </h2>
             <div>
                 <h3 className="font-nunito text-[1.5rem] text-black text-center font-bold">
