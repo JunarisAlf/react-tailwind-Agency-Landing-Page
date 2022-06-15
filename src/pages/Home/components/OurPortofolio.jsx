@@ -19,9 +19,12 @@ export default function OurPortofolio() {
                     use more comfortable, then can used by client from our
                     business
                 </p>
-                <PortofolioItem img={portoOne} text="Design Furniture App"/>
-                <PortofolioItem img={portoTwo} text="Cloud App"/>
-                <PortofolioItem img={portoThree} text="Design Byte App"/>
+                <div className="mt-8 flex flex-col gap-4">
+                    <PortofolioItem img={portoOne} text="Design Furniture App"/>
+                    <PortofolioItem img={portoTwo} text="Cloud App"/>
+                    <PortofolioItem img={portoThree} text="Design Byte App"/>
+                </div>
+                
                 <div className="flex items-center mt-3">
                     <SecondaryBtn href="" text="See All Portofolio" css="mx-auto"/>
                 </div>

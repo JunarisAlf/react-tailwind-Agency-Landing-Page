@@ -1,3 +1,4 @@
+import { useRef } from 'react';
 import Headline from '@/pages/Home/components/Headline';
 import MainImage from '@/pages/Home/components/MainImage';
 import AboutUs from '@/pages/Home/components/AboutUs';
@@ -8,6 +9,12 @@ import SecondaryImage from '@/pages/Home/components/SecondaryImage';
 import ClickToAction from '@/pages/Home/components/ClickToAction';
 
 export default function Home() {
+    // const homeDOM = useRef();
+    // const aboutDOM = useRef();
+    // const servicesDOM = useRef();
+    // const projectsDOM = useRef();
+    // const testimonialDOM = useRef();
+
     return (
         <>
             <main className="pt-16  ">

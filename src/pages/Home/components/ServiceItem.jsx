@@ -1,7 +1,7 @@
 export default function ServiceItem({ icon, text, bgColor }) {
     const classBgColor = `bg-[${bgColor}]`;
     return (
-        <div className="mx-auto px-10 flex flex-col gap-4 items-center justify-center w-[16rem] aspect-square rounded-2xl bg-white drop-shadow-spread border border-1 border-grey border-opacity-20">
+        <div className="mx-auto px-10 flrx-auto flex flex-col gap-4 items-center justify-center w-1/3 min-w-[15rem] aspect-square rounded-2xl bg-white drop-shadow-spread border border-1 border-grey border-opacity-20">
             <div
                 className="flex w-[6.25rem] aspect-square rounded-full"
                 style={{backgroundColor: bgColor}}

@@ -26,15 +26,12 @@ export default function OurServices() {
                     <span className="font-quicksand text-[0.85rem] text-blue font-bold">Read More </span>
                     <img src={arrow} alt="arrow icon" className="w-6 aspect-square"/>
                 </div>
-                <div className="flex flex-col gap-5 mt-6">
+                <div className="flex flex-row flex-wrap gap-5 mt-6 content-center">
                     <ServiceItem icon={ItemOne} text="Social Media Management" bgColor='#377DFF'/>
                     <ServiceItem icon={ItemTwo} text="Search Engine Opimization" bgColor='#FF2D2D'/>
                     <ServiceItem icon={ItemThree} text="Design" bgColor='#7CE761'/>
                     <ServiceItem icon={ItemFour} text="Ads" bgColor='#FFA800'/>
                 </div>
-                
-
-
             </div>
         </section>
     );
