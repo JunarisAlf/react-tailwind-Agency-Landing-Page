@@ -1,7 +1,7 @@
 import profileImgOne from '@/assets/images/pict-profile-1.jpeg'
 import profileImgTwo from '@/assets/images/pict-profile-2.jpg'
-
 import TestimonialItem from '@/pages/Home/components/TestimonialItem'
+
 export default function Testimonial() {
     return (
         <section id="testimonial">

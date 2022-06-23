@@ -5,10 +5,9 @@ import ItemTwo from '@/assets/icons/settings.svg'
 import ItemThree from '@/assets/icons/pen-tool.svg'
 import ItemFour from '@/assets/icons/tv.svg'
 
-
 export default function OurServices() {
     return (
-        <section id="services">
+        <section id="services" >
             <h2 className="mt-24 font-quicksand text-[0.85rem] text-blue text-center font-semibold">
                 Our Services
             </h2>

@@ -3,7 +3,6 @@ import SecondaryBtn from "@/components/SecondaryBtn"
 import image from "@/assets/images/our-team.png"
 import ImgDecoration from "@/assets/images/img-decoration-purple.svg"
 
-
 export default function AboutUs() {
     return (
         <section id="about">

@@ -1,6 +1,7 @@
 import PrimaryBtn from "@/components/PrimaryBtn"
 
 export default function Headline() {
+
     return (
         <section id="home" className="flex flex-col items-center mt-10">
             <h1 className="text-center text-black font-extrabold text-[1.75rem]">Make your dream busines goal come true</h1>
