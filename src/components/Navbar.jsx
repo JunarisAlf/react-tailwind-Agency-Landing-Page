@@ -23,36 +23,36 @@ export default () => {
             />
             <ul
                 className={
-                    'order-3 col-span-2 font-nunito text-[1.3rem] font-semibold mt-5 lg:flex lg:flex-row lg:text-xs lg:gap-6 lg:mt-0 lg:font-light' +
+                    'order-3 col-span-2 font-nunito text-[1.1rem] font-semibold mt-5 lg:flex lg:flex-row lg:text-xs lg:gap-6 lg:mt-0 lg:font-light' +
                     (open ? ' block' : ' hidden')
                 }
             >
                 <li
-                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'home' ? ' lg:font-bold' : '')}
+                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'home' ? ' lg:font-semibold' : '')}
                     onClick={() => onClickHandler('home')}
                 >
                     <a href="#home">Home</a>
                 </li>
                 <li
-                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'about' ? ' lg:font-bold' : '')}
+                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'about' ? ' lg:font-semibold' : '')}
                     onClick={() => onClickHandler('about')}
                 >
                     <a href="#about">About</a>
                 </li>
                 <li
-                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'services' ? ' lg:font-bold' : '')}
+                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'services' ? ' lg:font-semibold' : '')}
                     onClick={() => onClickHandler('services')}
                 >
                     <a href="#services">Services</a>
                 </li>
                 <li
-                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'projects' ? ' lg:font-bold' : '')}
+                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'projects' ? ' lg:font-semibold' : '')}
                     onClick={() => onClickHandler('projects')}
                 >
                     <a href="#projects">Prjects</a>
                 </li>
                 <li
-                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'testimonial' ? ' lg:font-bold' : '')}
+                    className={"text-center py-4 hover:bg-blue hover:bg-opacity-10 lg:hover:bg-white lg:hover:bg-opacity-100 lg:hover:font-semibold duration-300" + (activeTab == 'testimonial' ? ' lg:font-semibold' : '')}
                     onClick={() => onClickHandler('testimonial')}
                 >
                     <a href="#testimonial">Testimonial</a>
