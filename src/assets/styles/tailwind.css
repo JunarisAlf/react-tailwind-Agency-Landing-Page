@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .sub-footer-head{
-    @apply text-white block font-quicksand font-bold text-[1.1rem] leading-10 
+    @apply text-white block font-quicksand font-bold text-[1.1rem] lg:text-[0.8rem] leading-10 lg:leading-6
 }
 
 .sub-footer-child{
-    @apply text-white block font-quicksand font-normal text-[1rem] leading-10
+    @apply text-white block font-quicksand font-normal text-[1rem] lg:text-[0.7rem] leading-10 lg:leading-6
 }

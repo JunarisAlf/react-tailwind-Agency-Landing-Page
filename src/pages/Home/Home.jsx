@@ -43,7 +43,7 @@ export default function Home() {
                 <OurServices />
                 <OurPortofolio />
                 <Testimonial />
-                <SecondaryImage />
+                {/* <SecondaryImage /> */}
                 <ClickToAction />
             </main>
         </>
