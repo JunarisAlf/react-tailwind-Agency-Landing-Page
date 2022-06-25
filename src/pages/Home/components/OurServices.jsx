@@ -32,7 +32,7 @@ export default function OurServices() {
                     />
                 </div>
             </div>
-            <div className="mt-6 lg:-mt-6 flex lg:flex-none lg:w-[55%] flex-row flex-wrap content-center justify-around">
+            <div className="mt-6 lg:-mt-6 flex lg:flex-none lg:w-[55%] flex-row flex-wrap content-center justify-end gap-6">
                 <ServiceItem
                     icon={ItemOne}
                     text="Social Media Management"
