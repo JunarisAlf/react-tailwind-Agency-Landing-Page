@@ -21,8 +21,8 @@ export default function OurServices() {
                     make your content look interesting and make people look for
                     your business
                 </p>
-                <div className="mt-2 flex flex-row gap-2 items-center">
-                    <span className="font-quicksand text-[0.85rem] text-blue font-bold">
+                <a href="" className="mt-2 flex flex-row gap-2 items-center hover:gap-3 duration-300">
+                    <span className="font-quicksand text-[0.85rem] text-blue font-bold hover:text-dark-blue duration-300">
                         Read More{' '}
                     </span>
                     <img
@@ -30,7 +30,7 @@ export default function OurServices() {
                         alt="arrow icon"
                         className="w-6 aspect-square"
                     />
-                </div>
+                </a>
             </div>
             <div className="mt-6 lg:-mt-6 flex lg:flex-none lg:w-[55%] flex-row flex-wrap content-center justify-end gap-6">
                 <ServiceItem

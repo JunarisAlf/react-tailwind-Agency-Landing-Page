@@ -1,7 +1,7 @@
 
 export default function TestimonialItem({img, name, position, children}) {
     return (
-        <div className="mt-10 mb-10 px-12 py-10 lg:p-4 flex flex-col gap-4 bg-white drop-shadow-md rounded-2xl flex-1 lg:min-w-[350px] lg:max-w-[420px] lg:mt-4">
+        <div className="mt-10 mb-10 px-12 py-10 lg:p-4 flex flex-col gap-4 bg-white drop-shadow-sm rounded-2xl flex-1 lg:min-w-[350px] lg:max-w-[420px] lg:mt-4 hover:drop-shadow-md duration-300">
             <div className="flex flex-row gap-8 items-center justify-start">
                 <div className="rounded-full overflow-hidden h-16 aspect-square">
                     <img src={img} alt="profile picture" />

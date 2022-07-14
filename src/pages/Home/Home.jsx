@@ -36,14 +36,13 @@ export default function Home() {
 
     return (
         <>
-            <main className="pt-16">
+            <main className="pt-16 bg-white">
                 <Headline />
                 <MainImage />
                 <AboutUs />
                 <OurServices />
                 <OurPortofolio />
                 <Testimonial />
-                {/* <SecondaryImage /> */}
                 <ClickToAction />
             </main>
         </>
