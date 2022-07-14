@@ -17,7 +17,7 @@ export default function ClickToAction() {
                     className="absolute top-o right-0 z-0 w-[60%]"
                 />
             </div>
-            <div className="pr-20">
+            <div className="lg:pr-20">
                 <span className="block font-nunito font-bold text-[1.5rem] text-center">
                     Interesting Collaboration With Us?
                 </span>
